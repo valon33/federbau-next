@@ -1,0 +1,27 @@
+.logo {
+    height: 13vmin;
+    height: 10vmin;
+    width: auto;
+    animation: App-logo-heart-beat 3s infinite;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes App-logo-heart-beat {
+    0% {
+        transform: scale(0.95);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(0.95);
+    }
+}
