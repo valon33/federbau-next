@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Logo from "../components/Logo/Logo";
+import TopNavigation from "../components/TopNavigation/TopNavigation";
+import Footer from "../sections/Footer.js/Footer";
 
 const MainLayout = ({ children }) => {
     return (
@@ -12,10 +13,10 @@ const MainLayout = ({ children }) => {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Logo />
+            <TopNavigation />
             <main>{children}</main>
 
-            <footer></footer>
+            <Footer />
         </div>
     );
 };

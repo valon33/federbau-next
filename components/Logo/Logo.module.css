@@ -1,8 +1,9 @@
 .logo {
-    height: 13vmin;
-    height: 10vmin;
-    width: auto;
-    animation: App-logo-heart-beat 3s infinite;
+    /* height: 6vh !important; */
+    /* height: 50px; */
+    /* width: auto; */
+    /* padding: 5px; */
+    /* animation: App-logo-heart-beat 3s infinite; */
 }
 
 @keyframes App-logo-spin {

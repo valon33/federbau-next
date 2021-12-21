@@ -1,0 +1,76 @@
+.header {
+    position: relative;
+    background-color: var(--color-google);
+}
+
+.heroContainer {
+    height: 85vh;
+    width: 70vw;
+    height: 100vh;
+    width: 100vw;
+
+    background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.1)
+        ),
+        url("/images/MaskGroup1.png");
+
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 77%, 0 0);
+}
+
+.headingPrimary {
+    position: absolute;
+    top: 50%;
+    left: 19%;
+    font-size: 8rem;
+    color: var(--color-primary);
+    color: var(--color-google);
+}
+
+@media only screen and (max-width: 424px) {
+    .heroContainer {
+        height: 40vh;
+        width: 100vw;
+        clip-path: none;
+
+        /* background-size: contain; */
+    }
+    .headingPrimary {
+        font-size: 3rem;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (min-width: 425px) and (max-width: 575px) {
+    .heroContainer {
+        height: 80vh;
+        width: 100vw;
+        /* clip-path: none; */
+    }
+
+    .headingPrimary {
+        font-size: 5rem;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .heroContainer {
+        height: 90vh;
+    }
+
+    .headingPrimary {
+        font-size: 6rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .headingPrimary {
+        font-size: 7rem;
+    }
+}

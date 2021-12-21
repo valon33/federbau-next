@@ -1,0 +1,22 @@
+.topNavigation {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+
+@media only screen and (max-width: 767px) {
+    .topNavigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        width: 100vw;
+        align-items: center;
+        justify-content: space-between;
+        height: 8vh;
+        background-color: whitesmoke;
+        z-index: 102;
+    }
+}

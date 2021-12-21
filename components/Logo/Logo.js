@@ -6,10 +6,12 @@ const Logo = () => {
     return (
         <Link href="http://feder-bau.com.mk/">
             <a target="_blank" rel="noreferrer">
-                <img
+                <Image
                     src="/images/logowb-removebg.png"
                     alt="logo"
                     className={styles.logo}
+                    width={120}
+                    height={70}
                 />
             </a>
         </Link>
