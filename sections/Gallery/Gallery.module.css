@@ -1,0 +1,14 @@
+.gallerySection {
+  background-color: var(--color-google);
+}
+
+.headingSecondary {
+  font-size: 6rem;
+  color: var(--color-primary);
+  text-align: center;
+  margin: -20px 0 80px 0;
+}
+
+.headingSecondary span {
+  color: var(--color-secondary);
+}

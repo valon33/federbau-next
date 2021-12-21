@@ -1,0 +1,239 @@
+.aboutUs {
+  width: 95%;
+  width: 100%;
+  height: 65rem;
+  height: min-content;
+  margin: 0 auto;
+  padding: 3rem;
+  display: flex;
+  background-color: var(--color-google);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+.aboutUsImage,
+.aboutUsText {
+  height: 100%;
+  width: 50%;
+  padding: 1.5rem;
+}
+
+.aboutUsImage {
+  margin: auto 0;
+}
+
+.factory {
+  height: 100%;
+  width: 100%;
+  box-shadow: 1px 6px 35px -4px rgba(0, 0, 0, 0.75);
+}
+
+.headingTertiary {
+  margin: 0.5rem 0 3.5rem 0;
+  text-align: center;
+  color: var(--color-primary);
+  font-size: 5.5rem;
+}
+
+.headingTertiary span {
+  color: var(--color-secondary);
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+}
+
+.text p {
+  margin: 1.5rem auto;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: #333;
+  opacity: 0.8;
+  white-space: pre-line;
+  text-align: center;
+}
+
+.aboutUsP {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.subHeading {
+  font-size: 1.8rem;
+  text-align: center;
+  opacity: 0.65;
+  /* color: var(--color-primary); */
+}
+
+.aboutUsBtnContainer {
+  height: 2.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.5rem;
+}
+
+.aboutUsBtn {
+  border: none;
+  background-color: inherit;
+  color: var(--color-primary);
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+/* XX-Small devices (portrait phones, less than 424px) */
+@media only screen and (max-width: 424px) {
+  #about {
+    padding: 1rem;
+  }
+
+  .aboutUs {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .aboutUsImage,
+  .aboutUsText {
+    width: 100%;
+    /* height: 50%; */
+    padding: 1rem;
+  }
+
+  .headingTertiary {
+    font-size: 2rem;
+  }
+
+  .text p {
+    font-size: 1.2rem;
+    line-height: 1;
+    letter-spacing: 0.3px;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (min-width: 425px) and (max-width: 575px) {
+  #about {
+    padding: 1rem;
+  }
+
+  .aboutUs {
+    padding: 1.5rem;
+    flex-direction: column;
+    height: min-content;
+  }
+
+  .aboutUsImage {
+    height: 30%;
+    width: 70%;
+    margin: 0 auto;
+    /* box-shadow: none; */
+  }
+
+  /* .about_us-image, */
+  .aboutUsText {
+    width: 100%;
+    /* height: 50%; */
+    padding: 1.3rem;
+  }
+
+  .headingTertiary {
+    font-size: 2.5rem;
+  }
+
+  .text p {
+    font-size: 1.4rem;
+    line-height: 1;
+    letter-spacing: 0.3px;
+  }
+
+  @media only screen and (min-width: 1440px) {
+    .text p {
+      font-size: 1.7rem;
+      line-height: 1.2;
+      letter-spacing: 0.5px;
+    }
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  #about {
+    padding: 1.5rem;
+  }
+
+  .aboutUs {
+    padding: 1.5rem;
+    /* height: 45rem; */
+    height: 40rem;
+    /* height: min-content; */
+  }
+
+  .aboutUsImage,
+  .aboutUsText {
+    padding: 1.3rem;
+  }
+
+  .headingTertiary {
+    font-size: 2.8rem;
+  }
+
+  .text p {
+    font-size: 1.4rem;
+    line-height: 1;
+    letter-spacing: 0.4px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #about {
+    padding: 1.5rem;
+  }
+
+  .aboutUs {
+    padding: 1.5rem;
+    height: 45rem;
+    /* height: min-content; */
+  }
+
+  .aboutUsImage,
+  .aboutUsText {
+    height: 100%;
+    width: 50%;
+    padding: 1.5rem;
+  }
+
+  .headingTertiary {
+    font-size: 3.8rem;
+  }
+
+  .text p {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .text p {
+    font-size: 1.7rem;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .aboutUs {
+    flex-direction: column;
+    height: min-content;
+  }
+
+  .aboutUsImage,
+  .aboutUsText {
+    width: 100%;
+    padding: 1rem;
+  }
+}

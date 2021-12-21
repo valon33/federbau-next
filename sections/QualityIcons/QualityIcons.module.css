@@ -1,0 +1,120 @@
+.qualityLogosContainer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  /* align-items: stretch; */
+}
+
+.qualityLogos {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding: 6rem 1rem 3rem 1rem;
+  /* border: 1px solid; */
+  transition: all 0.2s ease-in;
+}
+
+.qualityLogosImage {
+  height: 10rem;
+  width: auto;
+  margin: 0 7rem;
+  margin-bottom: 4rem;
+}
+
+.qualityLogosText {
+  font-size: 2.2rem;
+  color: var(--color-primary);
+}
+
+@media only screen and (max-width: 374px) {
+  .qualityLogos {
+    padding: 0.6rem 0;
+  }
+
+  .qualityLogosImage {
+    height: 1.7rem;
+    margin: 0 2rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .qualityLogosText {
+    font-size: 0.9rem;
+  }
+}
+/* XX-Small devices (portrait phones, less than 424px) */
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .qualityLogos {
+    padding: 0.8rem 0;
+  }
+
+  .qualityLogosImage {
+    height: 2rem;
+    margin: 0 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .qualityLogosText {
+    font-size: 1.2rem;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (min-width: 425px) and (max-width: 575px) {
+  .quality-logos {
+    padding: 1rem 0.1rem 1rem 0.1rem;
+  }
+
+  .quality-logos-image {
+    height: 2rem;
+    margin: 0 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .quality-logos-text {
+    font-size: 1.4rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .quality-logos {
+    padding: 1.7rem 0.3rem 1.2rem 0.3rem;
+  }
+
+  .quality-logos-image {
+    height: 3rem;
+    margin: 0 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .quality-logos-text {
+    font-size: 1.6rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .quality-logos {
+    padding: 3rem 0.5rem 1.5rem 0.5rem;
+  }
+
+  .quality-logos-image {
+    height: 5rem;
+    margin: 0 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .quality-logos-text {
+    font-size: 1.8rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+}
+
+/* @media only screen and (min-width: 1921px){
+
+  } */

@@ -1,0 +1,152 @@
+
+
+.imgContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+
+
+.image {
+  width: 24%;
+  width: 32.5%;
+  height: auto;
+  margin: 0.7rem auto;
+  opacity: 0.95;
+  position: relative;
+}
+
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.imageBtn {
+  position: absolute;
+  opacity: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  width: 100%;
+  height: 20%;
+  bottom: 0;
+  left: 0;
+  transition: opacity 0.3s ease-in;
+}
+
+.imageBtn p {
+  color: white;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+}
+
+.imageBtn svg {
+  color: var(--color-secondary);
+  color: white;
+  cursor: pointer;
+  width: 2.3rem;
+  height: 2.3rem;
+  margin-right: 1.7rem;
+}
+
+.image:hover > .image-btn {
+  opacity: 1;
+  color: black;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 10rem;
+  background-color: black;
+  background-color: #fff;
+  color: #fff;
+  color: #000;
+  text-align: center;
+  border-radius: 0.6rem;
+  padding: 0.5rem 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  transition: all 0.2s ease-in;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltiptext {
+  top: -0.5rem;
+  right: 115%;
+}
+
+/* .img-container button { */
+.duhetTaNdreciSiDuhet {
+  font-size: 2rem;
+  border: none;
+  background-color: var(--color-secondary);
+  border-radius: 0.7rem;
+  padding: 1.7rem;
+  padding: 15px 30px;
+  color: var(--color-white);
+  box-shadow: 2px 2px 15px 1px rgba(165, 115, 4, 0.75);
+  /* box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.75); */
+  margin: 20px auto 0 auto;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+
+  /* !Duhet te fshihen mbasi ta ndreci */
+  display: flex;
+  justify-content: center;
+}
+
+/* .img-container button:active { */
+.duhetTaNdreciSiDuhet:active {
+  transform: scale(0.95);
+}
+
+/* XX-Small devices (portrait phones, less than 424px) */
+@media only screen and (max-width: 650px) {
+  .imgContainer {
+    flex-direction: column;
+  }
+
+  .image {
+    width: 90%;
+  }
+
+  .headingSecondary {
+    font-size: 3rem;
+    margin: 20px 0 30px 0;
+  }
+
+  /* .img-container button { */
+  .duhetTaNdreciSiDuhet {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .imageBtn {
+      opacity: 1;
+    }
+
+    .imageBtn p {
+      font-size: 1.6rem;
+    }
+
+    .imageBtn svg {
+      width: 1.3rem;
+      height: 1.3rem;
+    }
+  }
+}
