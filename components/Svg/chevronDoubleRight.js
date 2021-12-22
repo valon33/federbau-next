@@ -1,6 +1,6 @@
 import React from "react";
 
-const chevronDoubleRight = () => {
+const ChevronDoubleRight = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -22,4 +22,4 @@ const chevronDoubleRight = () => {
   );
 };
 
-export default chevronDoubleRight;
+export default ChevronDoubleRight;

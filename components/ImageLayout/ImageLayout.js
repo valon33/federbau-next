@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import chevronDoubleRight from "../../components/Svg/chevronDoubleRight";
 import styles from "./ImageLayout.module.css";
+import ChevronDoubleRight from "../Svg/ChevronDoubleRight";
 
 const Images = [
   {
@@ -60,7 +60,7 @@ const Images = [
   {
     id: 11,
     name: "Relax",
-    path: "./images/Relax.jpg",
+    path: "/images/Relax.jpg",
   },
   {
     id: 12,
@@ -110,9 +110,10 @@ const ImageLayout = ({ setSelectedImg }) => {
                     <p>{img.name}</p>
                     <div className={styles.tooltip}>
                       <span className={styles.tooltiptext}>More info</span>
-                      <Link href={`/dyshek/${img.name}`}>
-                        {" "}
-                        <chevronDoubleRight />
+                      <Link href={`/dyshek/${img.name.toLowerCase()}`}>
+                        <a>
+                          <ChevronDoubleRight />
+                        </a>
                       </Link>
                     </div>
                   </div>
