@@ -110,7 +110,8 @@ const ImageLayout = ({ setSelectedImg }) => {
                     <p>{img.name}</p>
                     <div className={styles.tooltip}>
                       <span className={styles.tooltiptext}>More info</span>
-                      <Link href={`/dyshek/${img.name.toLowerCase()}`}>
+                      {/* <Link href={`/dyshek/${img.name.toLowerCase()}`}> */}
+                      <Link href={`/${img.name.toLowerCase()}`}>
                         <a>
                           <ChevronDoubleRight />
                         </a>
