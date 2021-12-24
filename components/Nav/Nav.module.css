@@ -41,7 +41,7 @@
         padding: 5.5rem;
         background-color: whitesmoke;
     }
-    .res-navigation ul {
+    .resNavigation ul {
         flex-direction: column;
         justify-content: center;
         align-content: center;
@@ -49,11 +49,11 @@
         align-items: center;
     }
 
-    .res-navigation li {
+    .resNavigation li {
         padding: 5px;
     }
 
-    .res-navigation .dropdown {
+    .resNsavigation .dropdown {
         margin-top: 15px;
     }
 }

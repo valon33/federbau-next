@@ -8,12 +8,12 @@ import Gallery from "../sections/Gallery/Gallery";
 
 export default function Home() {
   return (
-    <MainLayout>
+    <>
       <Hero />
       <QualityIcons />
       <Quote />
       <AboutUs />
       <Gallery />
-    </MainLayout>
+    </>
   );
 }
