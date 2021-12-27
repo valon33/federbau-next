@@ -1,444 +1,443 @@
-.producktDescriptionContainer {
-  display: flex;
-  background-color: var(--color-google);
-  padding-bottom: 7rem;
+.productDescriptionContainer {
+    display: flex;
+    background-color: var(--color-google);
+    padding-bottom: 7rem;
 }
 
 .productDescriptionSlider {
-  width: 55%;
-  height: 65rem;
+    width: 55%;
+    height: 65rem;
 }
 
 .mySlides {
-  position: relative;
-  width: 100%;
-  height: 50rem;
-  background-color: #333;
+    position: relative;
+    width: 100%;
+    height: 50rem;
+    background-color: #333;
 }
 
 .mySlides img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cursor {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .mySlides button {
-  border: none;
-  background-color: transparent;
+    border: none;
+    background-color: transparent;
 }
 
 .prev,
 .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 .prev {
-  left: 0;
-  border-radius: 3px 0 0 3px;
+    left: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-  background-color: var(--color-secondary);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--color-secondary);
 }
 
 .thumbnailContainer {
-  width: 100%;
-  height: 20rem;
-  height: 15rem;
-  display: flex;
+    width: 100%;
+    height: 20rem;
+    height: 15rem;
+    display: flex;
 }
 
 .thumbnail {
-  width: 20%;
-  margin-top: 5px;
+    width: 20%;
+    margin-top: 5px;
 }
+
 .thumbnail:not(:last-child) {
-  margin-right: 5px;
+    margin-right: 5px;
 }
 
 .thumbnail img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 .thumbnailImg {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 .productDescriptionText {
-  width: 45%;
-  height: 65rem;
-  height: min-content;
-  display: flex;
-  flex-direction: column;
-  align-items: space-between;
+    width: 45%;
+    height: 65rem;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
 }
 
 .productHeaderText {
-  padding: 0 40px;
-  height: 45rem;
+    padding: 0 40px;
+    height: 45rem;
 }
 
 .productNameContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .productName {
-  font-size: 5rem;
-  padding: 2rem 0;
-  font-weight: 900;
-  color: var(--color-secondary);
+    font-size: 5rem;
+    padding: 2rem 0;
+    font-weight: 900;
+    color: var(--color-secondary);
 }
 
 .product-btn {
-  padding: 1rem 2rem;
-  font-size: 2rem;
-  border: none;
-  border-radius: 5px;
-  color: var(--color-secondary);
-  color: var(--color-white);
-  background-color: var(--color-secondary);
-  cursor: pointer;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    color: var(--color-secondary);
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    cursor: pointer;
 }
 
 .productSlogan {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: var(--color-primary);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
 }
 
-.productDecription {
-  font-size: 1.8rem;
-  font-weight: 300;
-  padding: 2rem 0;
-  margin-top: 4rem;
-  color: #444;
-  opacity: 0.8;
-  line-height: 1.2;
-  word-wrap: break-word;
-  white-space: pre-line;
+.productDescription {
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: 2rem 0;
+    margin-top: 4rem;
+    color: #444;
+    opacity: 0.8;
+    line-height: 1.2;
+    word-wrap: break-word;
+    white-space: pre-line;
 }
 
 .active,
 .thumbnail-img:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .qualityIconsContainer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  flex-wrap: wrap;
-  margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-top: 2rem;
 }
 
 .qualityIcons {
-  width: 5rem;
-  height: 5rem;
-  margin: 15px 20px;
+    width: 5rem;
+    height: 5rem;
+    margin: 15px 20px;
 }
 .qualityIconsImg {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .productNameContainer svg {
-  color: var(--color-secondary);
-  width: 3rem;
-  height: 3rem;
-  cursor: pointer;
-  transform: rotate(180);
+    color: var(--color-secondary);
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    transform: rotate(180);
 }
 
-/* !!! Per Prov salll !!! */
 .standardsLogoContainer {
-  /* background-color: var(--color-google); */
-  /* padding: 0; */
-  display: flex;
-  justify-content: space-evenly;
-  justify-content: flex-end;
-  /* margin-top: 2rem; */
-  margin-left: 2rem;
-  margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
 }
 
 .standardLogo {
-  height: 90px;
-  height: 7rem;
-  width: auto;
-  margin: 0 2rem;
+    object-fit: contain;
+}
+
+.thumbnailOpacity {
+    opacity: 1;
 }
 
 /* XX-Small devices (portrait phones, less than 424px) */
 @media only screen and (max-width: 424px) {
-  .producktDescriptionContainer {
-    padding: 10rem 0;
-    flex-direction: column;
-  }
+    .productDescriptionContainer {
+        padding: 10rem 0;
+        flex-direction: column;
+    }
 
-  .productDescriptionSlider {
-    width: 100%;
-    height: 40rem;
-    margin: 0 auto;
-  }
+    .productDescriptionSlider {
+        width: 100%;
+        height: 40rem;
+        margin: 0 auto;
+    }
 
-  .mySlides {
-    width: 100%;
-    height: 80%;
-  }
+    .mySlides {
+        width: 100%;
+        height: 80%;
+    }
 
-  .thumbnailContainer {
-    height: 20% !important;
-  }
+    .thumbnailContainer {
+        height: 20% !important;
+    }
 
-  .prev,
-  .next {
-    top: 60%;
-    font-size: 1.5rem;
-  }
+    .prev,
+    .next {
+        top: 60%;
+        font-size: 1.5rem;
+    }
 
-  .productDescriptionText {
-    width: 90%;
-    height: min-content;
-    margin: 0 auto;
-  }
+    .productDescriptionText {
+        width: 90%;
+        height: min-content;
+        margin: 0 auto;
+    }
 
-  .productName {
-    font-size: 3.5rem;
-  }
+    .productName {
+        font-size: 3.5rem;
+    }
 
-  .productNameContainer svg {
-    width: 2rem;
-    height: 2rem;
-  }
+    .productNameContainer svg {
+        width: 2rem;
+        height: 2rem;
+    }
 
-  .productSlogan {
-    font-size: 1.5rem;
-  }
+    .productSlogan {
+        font-size: 1.5rem;
+    }
 
-  .productDecription {
-    font-size: 1.4rem;
-    padding: 0 1rem;
-    margin-top: 2.5rem;
-  }
+    .productDescription {
+        font-size: 1.4rem;
+        padding: 0 1rem;
+        margin-top: 2.5rem;
+    }
 
-  .qualityIcons {
-    width: 3.7rem;
-    height: 3.7rem;
-    margin: 1rem 1.2rem;
-  }
+    .qualityIcons {
+        width: 3.7rem;
+        height: 3.7rem;
+        margin: 1rem 1.2rem;
+    }
 
-  .standardsLogoContainer {
-    margin-left: 1.3rem;
-    margin-bottom: 3rem;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+    .standardsLogoContainer {
+        margin-left: 1.3rem;
+        margin-bottom: 3rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 
-  .standardLogo {
-    height: 4.5rem;
-    margin: 0 1.3rem;
-  }
+    .standardLogo {
+        height: 4.5rem;
+        margin: 0 1.3rem;
+    }
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media only screen and (min-width: 425px) and (max-width: 575px) {
-  .producktDescriptionContainer {
-    padding: 10rem 0rem;
-    flex-direction: column;
-  }
+    .productDescriptionContainer {
+        padding: 10rem 0rem;
+        flex-direction: column;
+    }
 
-  .productDescriptionSlider {
-    width: 100%;
-    height: 50rem;
-    margin: 0 auto;
-  }
+    .productDescriptionSlider {
+        width: 100%;
+        height: 50rem;
+        margin: 0 auto;
+    }
 
-  .mySlides {
-    width: 100%;
-    height: 85%;
-  }
+    .mySlides {
+        width: 100%;
+        height: 85%;
+    }
 
-  .thumbnailContainer {
-    height: 20%;
-  }
+    .thumbnailContainer {
+        height: 20%;
+    }
 
-  .prev,
-  .next {
-    top: 60%;
-    font-size: 1.8rem;
-  }
+    .prev,
+    .next {
+        top: 60%;
+        font-size: 1.8rem;
+    }
 
-  .productDescriptionText {
-    width: 90%;
-    height: min-content;
-    margin: 3rem auto;
-  }
+    .productDescriptionText {
+        width: 90%;
+        height: min-content;
+        margin: 3rem auto;
+    }
 
-  .qualityIconsContainer {
-    margin-top: 10rem;
-  }
+    .qualityIconsContainer {
+        margin-top: 10rem;
+    }
 
-  .standardsLogoContainer {
-    margin-left: 1.7rem;
-    margin-bottom: 4rem;
-    justify-content: center;
-  }
+    .standardsLogoContainer {
+        margin-left: 1.7rem;
+        margin-bottom: 4rem;
+        justify-content: center;
+    }
 
-  .standardLogo {
-    height: 6rem;
-    margin: 0 1.7rem;
-  }
+    .standardLogo {
+        height: 6rem;
+        margin: 0 1.7rem;
+    }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .producktDescriptionContainer {
-    padding: 10rem 0rem;
-    flex-direction: column;
-  }
+    .productDescriptionContainer {
+        padding: 10rem 0rem;
+        flex-direction: column;
+    }
 
-  .productDescriptionSlider {
-    width: 90%;
-    height: 60rem;
-    margin: 0 auto;
-  }
+    .productDescriptionSlider {
+        width: 90%;
+        height: 60rem;
+        margin: 0 auto;
+    }
 
-  .mySlides {
-    width: 100%;
-    height: 65rem;
-    height: 80%;
-  }
+    .mySlides {
+        width: 100%;
+        height: 65rem;
+        height: 80%;
+    }
 
-  .thumbnailContainer {
-    width: 100%;
-    height: 20%;
-    display: flex;
-  }
+    .thumbnailContainer {
+        width: 100%;
+        height: 20%;
+        display: flex;
+    }
 
-  .prev,
-  .next {
-    top: 60%;
-    font-size: 15px;
-  }
+    .prev,
+    .next {
+        top: 60%;
+        font-size: 15px;
+    }
 
-  .productDescriptionText {
-    width: 90%;
-    height: min-content;
-    margin: 0 auto;
-  }
+    .productDescriptionText {
+        width: 90%;
+        height: min-content;
+        margin: 0 auto;
+    }
 
-  .productHeaderText {
-    padding: 0 40px;
-    height: min-content;
-  }
+    .productHeaderText {
+        padding: 0 40px;
+        height: min-content;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .produckt_description-container {
-    padding: 12rem 3rem;
-  }
+    .productDescriptionContainer {
+        padding: 12rem 3rem;
+    }
 
-  .qualityIcons {
-    width: 4.5rem;
-    height: 4.5rem;
-    margin: 1rem 1rem;
-  }
+    .qualityIcons {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin: 1rem 1rem;
+    }
 
-  .productSlogan {
-    font-size: 2rem;
-  }
+    .productSlogan {
+        font-size: 2rem;
+    }
 
-  .productDecription {
-    font-size: 1.6rem;
-    font-weight: 300;
-    padding: 0;
-    margin: 2rem 0;
-    line-height: 1.2;
-  }
-  .productName {
-    font-size: 4rem;
-  }
+    .productDescription {
+        font-size: 1.6rem;
+        font-weight: 300;
+        padding: 0;
+        margin: 2rem 0;
+        line-height: 1.2;
+    }
+    .productName {
+        font-size: 4rem;
+    }
 
-  .productBtn {
-    font-size: 1rem;
-  }
+    .productBtn {
+        font-size: 1rem;
+    }
 
-  .mySlides {
-    height: 40rem;
-  }
+    .mySlides {
+        height: 40rem;
+    }
 
-  .thumbnailContainer {
-    height: 10rem;
-  }
+    .thumbnailContainer {
+        height: 10rem;
+    }
 
-  .productDescriptionText {
-    width: 45%;
-  }
+    .productDescriptionText {
+        width: 45%;
+    }
 
-  .productHeaderText {
-    padding: 0 20px;
-    height: 35rem;
-    height: min-content;
-  }
+    .productHeaderText {
+        padding: 0 20px;
+        height: 35rem;
+        height: min-content;
+    }
 
-  .productNameSvg {
-    width: 3.5rem;
-    height: 3.5rem;
-  }
+    .productNameSvg {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
-  .producktDescriptionContainer {
-    padding: 15rem 1rem;
-  }
+    .productDescriptionContainer {
+        padding: 15rem 1rem;
+    }
 
-  .qualityIcons {
-    width: 5rem;
-    height: 5rem;
-    margin: 1.5rem 2rem;
-  }
+    .qualityIcons {
+        width: 5rem;
+        height: 5rem;
+        margin: 1.5rem 2rem;
+    }
 
-  .productDecription {
-    font-size: clamp(1.4rem, 1.6rem, 1.8rem);
-    padding: 2rem 0;
-    margin-top: 4rem;
-  }
+    .productDescription {
+        font-size: clamp(1.4rem, 1.6rem, 1.8rem);
+        padding: 2rem 0;
+        margin-top: 4rem;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
-  .producktDescriptionContainer {
-    padding: 15rem 5rem;
-  }
+    .producktDescriptionContainer {
+        padding: 15rem 5rem;
+    }
 
-  .productDecription {
-    font-size: clamp(1.6rem, 1.8rem, 2rem);
-    padding: 2rem 0;
-    margin-top: 4rem;
-  }
+    .productDescription {
+        font-size: clamp(1.6rem, 1.8rem, 2rem);
+        padding: 2rem 0;
+        margin-top: 4rem;
+    }
 }

@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
+import ReactDOM from "react-dom";
 import styles from "./Modal.module.css";
 import { motion } from "framer-motion";
 import Images from "../../data/gallery";
@@ -19,9 +20,9 @@ const Modal = ({ setSelectedImg, selectedImg }) => {
         return () => window.removeEventListener("keydown", handleKeyDown);
     }, [indexOfCurrentImg]); // eslint-disable-line react-hooks/exhaustive-deps
 
-    useEffect(() => {
-        document.body.style.overflow = "hidden";
-    }, []);
+    // useEffect(() => {
+    //     document.body.style.overflow = "hidden";
+    // }, []);
 
     const handleClick = (e) => {
         if (e.target.classList.contains(`${styles.backdrop}`)) {
@@ -54,7 +55,7 @@ const Modal = ({ setSelectedImg, selectedImg }) => {
         }
     };
 
-    return (
+    return ReactDOM.createPortal(
         <motion.div
             className={styles.backdrop}
             onClick={handleClick}
@@ -90,7 +91,8 @@ const Modal = ({ setSelectedImg, selectedImg }) => {
             >
                 <CloseX />
             </button>
-        </motion.div>
+        </motion.div>,
+        document.getElementById("modal")
     );
 };
 
