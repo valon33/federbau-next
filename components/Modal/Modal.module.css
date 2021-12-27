@@ -1,0 +1,174 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+}
+.backdropImg {
+    display: block;
+    /* max-width: 60%; */
+    width: 76%;
+    /* max-height: 80%; */
+    height: 99%;
+    margin: 60px auto;
+    margin: 0px auto;
+    box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+    border: 3px solid white;
+}
+
+.modalBtn {
+    border: none;
+    width: 7rem;
+    height: 7rem;
+    background-color: black;
+    border-radius: 100%;
+    opacity: 0.5;
+    position: absolute;
+    cursor: pointer;
+}
+
+.modalBtn:hover {
+    opacity: 0.7;
+}
+
+.modalBtn svg {
+    color: #fff;
+    width: 3rem;
+    height: 3rem;
+}
+
+.modalBtnNext {
+    top: 45%;
+    right: 1.5rem;
+}
+
+.modalBtnPrev {
+    top: 45%;
+    left: 1.5rem;
+}
+
+.modalBtnClose {
+    top: 1.5rem;
+    right: 1.5rem;
+}
+@media only screen and (max-width: 374px) {
+    .backdropImg {
+        width: 99%;
+        /* max-height: 80%; */
+        height: 40%;
+        margin: 24rem auto 0 auto;
+    }
+
+    .modalBtnNext {
+        top: 80%;
+        right: 1.5rem;
+    }
+
+    .modalBtnPrev {
+        top: 80%;
+        left: 1.5rem;
+    }
+
+    .modalBtnClose {
+        top: 12rem;
+        right: 1.5rem;
+    }
+}
+
+/* XX-Small devices (portrait phones, less than 424px) */
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .backdropImg {
+        width: 99%;
+        /* max-height: 80%; */
+        height: 40%;
+        margin: 27rem auto 0 auto;
+    }
+
+    .modalBtnNext {
+        top: 80%;
+        right: 1.5rem;
+    }
+
+    .modalBtnPrev {
+        top: 80%;
+        left: 1.5rem;
+    }
+
+    .modalBtnClose {
+        top: 15rem;
+        right: 1.5rem;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (min-width: 425px) and (max-width: 575px) {
+    .backdropImg {
+        width: 99%;
+        /* max-height: 80%; */
+        height: 45%;
+        margin: 22rem auto 0 auto;
+    }
+
+    .modalBtnNext {
+        top: 80%;
+        right: 1.5rem;
+    }
+
+    .modalBtnPrev {
+        top: 80%;
+        left: 1.5rem;
+    }
+
+    .modalBtnClose {
+        top: 12rem;
+        right: 1.5rem;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .backdropImg {
+        width: 90%;
+        /* max-height: 80%; */
+        height: 50%;
+        margin: 22rem auto 0 auto;
+    }
+
+    .modalBtnNext {
+        top: 80%;
+        right: 1.5rem;
+    }
+
+    .modalBtnPrev {
+        top: 80%;
+        left: 1.5rem;
+    }
+
+    .modalBtnClose {
+        top: 12rem;
+        right: 1.5rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .backdropImg {
+        width: 76%;
+        /* max-height: 80%; */
+        height: 60%;
+        margin: 20% auto;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .backdropImg {
+        width: 76%;
+        /* max-height: 80%; */
+        height: 90%;
+        margin: 60px auto;
+        margin: 2.5% auto;
+    }
+}
