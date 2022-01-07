@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import styles from "./ImageLayout.module.css";
-// import ChevronDoubleRight from "../Svg/ChevronDoubleRight";
+import ChevronDoubleRight from "../Svg/ChevronDoubleRight";
 
 const Images = [
   {
@@ -113,7 +113,9 @@ const ImageLayout = ({ setSelectedImg }) => {
                       <span className={styles.tooltiptext}>More info</span>
                       {/* <Link href={`/dyshek/${img.name.toLowerCase()}`}> */}
                       <Link href={`/${img.name.toLowerCase()}`}>
-                        <a>{/* <ChevronDoubleRight /> */}</a>
+                        <a>
+                          <ChevronDoubleRight />
+                        </a>
                       </Link>
                     </div>
                   </div>

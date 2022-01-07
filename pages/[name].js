@@ -70,9 +70,9 @@ function Item({ name, item }) {
                 {displayphoto && (
                   <Image
                     src={displayphoto}
+                    className={styles.mySlidesImg}
                     alt={name}
-                    height={500}
-                    width={750}
+                    layout="fill"
                   />
                 )}
 
