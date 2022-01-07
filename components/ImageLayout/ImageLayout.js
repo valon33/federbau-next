@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import styles from "./ImageLayout.module.css";
-import ChevronDoubleRight from "./../Svg/ChevronDoubleRight";
+import ChevronDoubleRight from "./../Svg/ChevronRight";
+// import ChevronDoubleRight from "./../Svg/ChevronDoubleRight";
 
 const Images = [
   {
