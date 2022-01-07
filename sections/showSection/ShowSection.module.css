@@ -1,0 +1,45 @@
+.showroom {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.showroomImageOne,
+.showroomImageTwo {
+  width: 50%;
+}
+.showroomImageOneImg {
+  width: 100%;
+  height: 100%;
+}
+
+.showroomImageTwoImg {
+  width: 100%;
+  height: 50%;
+}
+
+@media only screen and (max-width: 460px) {
+  .showroom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .showroomImageOne {
+    width: 100%;
+    height: 34%;
+  }
+
+  .showroomImageOneImg {
+    object-fit: cover;
+    object-position: bottom;
+  }
+
+  .showroomImageTwo {
+    width: 100%;
+    height: 66%;
+  }
+  .showroomImageTwo > img {
+    width: 100%;
+    height: 50%;
+  }
+}

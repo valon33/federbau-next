@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from "./ResButton.module.css";
 
 const ResButton = ({ isClicked, setIsClicked }) => {
-//   const [isClicked, setIsClicked] = useState(false);
+  //   const [isClicked, setIsClicked] = useState(false);
   return (
     <div
       onClick={() => setIsClicked(!isClicked)}
